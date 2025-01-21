@@ -1,15 +1,20 @@
-# system design codes and material with notes
+# System Design Notes
 
-# 1st lecture 
- # how to choose which system for deployment 
-                       -    -
-                    -           -
-                -                   -
-             local machine          cloud service provider
-              (laptop ,pc)          (aws instance ec2, azure ,gcp)
+## 1st Lecture: Deployment System Selection
 
-# local machine
- thorugh url tunneling 
-  ngrok - (https://chatgpt.com/share/678f3dd7-6494-8012-b349-6801b7cb492f)
+### Options:
+- **Local Machine**: Laptop, PC
+- **Cloud Providers**: AWS EC2, Azure, GCP
 
+### Key Points:
+1. **Local Machine**
+   - Pros: Cost-effective, easy debugging.
 
+2. **Cloud Providers**
+   - Pros: Scalable, reliable.
+
+---
+
+### Local Deployment with ngrok
+- Install ngrok: [Guide](https://download.ngrok.com/downloads/windows)
+- Run: `ngrok http 3000`
